@@ -1,0 +1,55 @@
+#vlightbox { 
+	width:550px;
+	/*height:355px; }*/
+	height:auto;}
+
+#vlightbox span{ display:block; }
+#vlightbox a{ display:block; 
+	float:left;
+	width:260px; 
+	height:155px; 
+	margin:3px 1px; 
+	padding:6px; 
+	border:solid 1px #b8b8b8;
+	background-color:#f4f5f5;
+	opacity:0.8; 
+}
+
+#vlightbox a img{ 
+	display:block; 
+	border:none; 
+	margin:0px; 
+}
+#vlightbox a:hover{ 
+	opacity:1; 
+	cursor:pointer;
+}
+
+#vlightbox a.vlightbox_hidden
+{ display:none; }
+#vlightbox a img { 
+	border:medium none; 
+	margin:0 auto;
+	width:260px; 
+	height:155px; }
+
+#vlightbox div.infoDiv{
+	/*display:block;*/
+	 float:left;
+	 width:260px; 
+	 /*height:155px;*/
+	 height:auto;
+	  margin:3px 1px; 
+	 padding:6px; 
+	 /*border:solid 1px #b8b8b8;*/
+}
+
+#vlightbox p.infoText{
+	/*display:block;*/
+	 float:left;
+	 width:260px; 
+	 margin:3px 1px; 
+	 padding:6px; 
+	 /*height:10px;*/
+	 /*margin-top:40%;*/
+}
